@@ -5,7 +5,7 @@ var cat = {
     var catImage = document.getElementById("laser_cat");
     catImage.addEventListener("click", function() {
       console.log("My name is " + this.name + " and I like " + this.pastimes);
-    });
+    }.bind(this));
   }
 }
 
